@@ -1,0 +1,6 @@
+1. activity_main.xml
+2. applicationId
+3.AVD Manager
+4. Verbose
+    Debug
+    Info

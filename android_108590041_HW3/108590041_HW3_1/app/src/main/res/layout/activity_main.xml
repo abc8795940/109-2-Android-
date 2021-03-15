@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="280dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <ScrollView
+            android:layout_width="224dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rome (CNN)The Vatican said Monday that the Catholic Church would not bless same-sex unions, in a statement approved by Pope Francis that threatens to widen the chasm between the church and much of the LGBTQ community.  Explaining their decision in a lengthy note on Monday, the Holy See referred to homosexuality as a &quot;choice,&quot; suggested it is sinful and said it &quot;cannot be recognized as objectively ordered&quot; to God's plans; a combative stance that is certain to disappoint millions of gay and lesbian Catholics around the world. &quot;The blessing of homosexual unions cannot be considered licit,&quot; the Vatican's top doctrinal office, the Congregation for the Doctrine of the Faith, wrote in the statement. God &quot;does not and cannot bless sin,&quot; the statement added. Pope Francis, who has frequently been praised for his welcoming tone towards LGBTQ people both within and outside the Church, approved the note. The decision is a setback for Catholics who had hoped the institution would modernize its approach to homosexuality. Dozens of countries, include many in western Europe, have legalized same-sex marriages, and the Church's reticence to embrace LGBTQ people has long held the potential to alienate it from younger followers. &quot;It is not licit to impart a blessing on relationships or partnerships, even stable, that involve sexual activity outside of marriage, as is the case of the unions between persons of the same sex,&quot; the statement said. The statement says that gays and lesbians, as individuals, may receive a blessing if they live according to Church teaching. &quot;[This decision] does not preclude the blessings given to individual persons with homosexual inclinations, who manifest the will to live in fidelity to the revealed plans of God as proposed by Church teaching.&quot; Blessing same-sex unions, the Vatican said, would send a sign that the Catholic Church approves and encourages &quot;a choice and a way of life that cannot be recognized as objectively ordered to the revealed plans of God.&quot; The statement says that &quot;God Himself never ceases to bless each of His pilgrim children in this world ... but he does not and cannot bless sin.&quot; In a commentary provided with the statement, the Vatican stated that &quot;the negative judgment on the blessing of unions of persons of the same sex does not imply a judgment on persons.&quot; The statement was issued as a &quot;response&quot; to questions from pastors and the faithful on the question." />
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
